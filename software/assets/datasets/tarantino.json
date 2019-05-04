@@ -1,0 +1,789 @@
+{
+  "nodes":[
+ {
+   "id": "RD",
+   "label": "Reservoir Dogs",
+   "start": 1992,
+   "type": "film"
+ },
+ {
+   "id": "PF",
+   "label": "Pulp Fiction",
+   "start": 1994,
+   "type": "film"
+ },
+ {
+   "id": "FR",
+   "label": "Four Rooms",
+   "start": 1995,
+   "type": "film"
+ },
+ {
+   "id": "JB",
+   "label": "Jackie Brown",
+   "start": 1997,
+   "type": "film"
+ },
+ {
+   "id": "KB",
+   "label": "Kill Bill",
+   "start": 2003,
+   "type": "film"
+ },
+ {
+   "id": "DP",
+   "label": "Death Proof",
+   "start": 2007,
+   "type": "film"
+ },
+ {
+   "id": "IB",
+   "label": "Inglorious Basterds",
+   "start": 2009,
+   "type": "film"
+ },
+ {
+   "id": "DU",
+   "label": "Django Unchained",
+   "start": 2012,
+   "type": "film"
+ },
+ {
+   "id": "HE",
+   "label": "The Hateful Eight",
+   "start": 2015,
+   "type": "film"
+ },
+ {
+   "label": "Bo Svenson",
+   "id": "BoSv",
+   "start": 1941,
+   "type": "actor"
+ },
+ {
+   "label": "Bruce Dern",
+   "id": "BrDe",
+   "start": 1936,
+   "type": "actor"
+ },
+ {
+   "label": "Bruce Willis",
+   "id": "BrWi",
+   "start": 1955,
+   "type": "actor"
+ },
+ {
+   "label": "Christoph Waltz",
+   "id": "ChWa",
+   "start": 1956,
+   "type": "actor"
+ },
+ {
+   "label": "David Steen",
+   "id": "DaSt",
+   "start": 1954,
+   "type": "actor"
+ },
+ {
+   "label": "Eli Roth",
+   "id": "ElRo",
+   "start": 1972,
+   "type": "actor"
+ },
+ {
+   "label": "Harvey Keitel",
+   "id": "HaKe",
+   "start": 1939,
+   "type": "actor"
+ },
+ {
+   "label": "James Parks",
+   "id": "JaPa",
+   "start": 1968,
+   "type": "actor"
+ },
+ {
+   "label": "Jonathan Loughran",
+   "id": "JoLo",
+   "start": 1966,
+   "type": "actor"
+ },
+ {
+   "label": "Julie Dreyfus",
+   "id": "JuDr",
+   "start": 1966,
+   "type": "actor"
+ },
+ {
+   "label": "Kathy Griffin",
+   "id": "KaGr",
+   "start": 1960,
+   "type": "actor"
+ },
+ {
+   "label": "Kurt Russell",
+   "id": "KuRu",
+   "start": 1951,
+   "type": "actor"
+ },
+ {
+   "label": "Laura Cayouette",
+   "id": "LaCa",
+   "start": 1964,
+   "type": "actor"
+ },
+ {
+   "label": "Lee Horsley",
+   "id": "LeHo",
+   "start": 1955,
+   "type": "actor"
+ },
+ {
+   "label": "Michael Bacall",
+   "id": "MiBa",
+   "start": 1973,
+   "type": "actor"
+ },
+ {
+   "label": "Michael Bowen",
+   "id": "MiBo",
+   "start": 1957,
+   "type": "actor"
+ },
+ {
+   "label": "Michael Madsen",
+   "id": "MiMa",
+   "start": 1958,
+   "type": "actor"
+ },
+ {
+   "label": "Michael Parks",
+   "id": "MiPa",
+   "start": 1969,
+   "type": "actor"
+ },
+ {
+   "label": "Omar Doom",
+   "id": "OmDo",
+   "start": 1976,
+   "type": "actor"
+ },
+ {
+   "label": "Paul Calderón",
+   "id": "PaCa",
+   "start": 1959,
+   "type": "actor"
+ },
+ {
+   "label": "Samuel L. Jackson",
+   "id": "SaJa",
+   "start": 1948,
+   "type": "actor"
+ },
+ {
+   "label": "Sid Haig",
+   "id": "SiHa",
+   "start": 1939,
+   "type": "actor"
+ },
+ {
+   "label": "Steve Buscemi",
+   "id": "StBu",
+   "start": 1957,
+   "type": "actor"
+ },
+ {
+   "label": "Tim Roth",
+   "id": "TiRo",
+   "start": 1961,
+   "type": "actor"
+ },
+ {
+   "label": "Uma Thurman",
+   "id": "UmTh",
+   "start": 1970,
+   "type": "actor"
+ },
+ {
+   "label": "Walton Goggins",
+   "id": "WaGo",
+   "start": 1971,
+   "type": "actor"
+ },
+ {
+   "label": "Zoë Bell",
+   "id": "ZoBe",
+   "start": 1978,
+   "type": "actor"
+ }
+
+],
+  "links":[
+ {
+   "source": "SaJa",
+   "target": "PF",
+   "directed": "no",
+   "type": "Featured",
+   "start": 1994,
+   "label": ""
+ },
+ {
+   "source": "SaJa",
+   "target": "JB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 1997,
+   "label": ""
+ },
+ {
+   "source": "SaJa",
+   "target": "KB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2003,
+   "label": ""
+ },
+ {
+   "source": "SaJa",
+   "target": "IB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2009,
+   "label": ""
+ },
+ {
+   "source": "SaJa",
+   "target": "DU",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2012,
+   "label": ""
+ },
+ {
+   "source": "SaJa",
+   "target": "HE",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2015,
+   "label": ""
+ },
+ {
+   "source": "ZoBe",
+   "target": "KB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2003,
+   "label": ""
+ },
+ {
+   "source": "ZoBe",
+   "target": "DP",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2007,
+   "label": ""
+ },
+ {
+   "source": "ZoBe",
+   "target": "IB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2009,
+   "label": ""
+ },
+ {
+   "source": "ZoBe",
+   "target": "DU",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2012,
+   "label": ""
+ },
+ {
+   "source": "ZoBe",
+   "target": "HE",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2015,
+   "label": ""
+ },
+ {
+   "source": "JaPa",
+   "target": "KB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2003,
+   "label": ""
+ },
+ {
+   "source": "JaPa",
+   "target": "DP",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2007,
+   "label": ""
+ },
+ {
+   "source": "JaPa",
+   "target": "DU",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2012,
+   "label": ""
+ },
+ {
+   "source": "JaPa",
+   "target": "HE",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2015,
+   "label": ""
+ },
+ {
+   "source": "TiRo",
+   "target": "RD",
+   "directed": "no",
+   "type": "Featured",
+   "start": 1992,
+   "label": ""
+ },
+ {
+   "source": "TiRo",
+   "target": "PF",
+   "directed": "no",
+   "type": "Featured",
+   "start": 1994,
+   "label": ""
+ },
+ {
+   "source": "TiRo",
+   "target": "FR",
+   "directed": "no",
+   "type": "Featured",
+   "start": 1995,
+   "label": ""
+ },
+ {
+   "source": "TiRo",
+   "target": "HE",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2015,
+   "label": ""
+ },
+ {
+   "source": "MiBa",
+   "target": "DP",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2007,
+   "label": ""
+ },
+ {
+   "source": "MiBa",
+   "target": "IB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2009,
+   "label": ""
+ },
+ {
+   "source": "MiBa",
+   "target": "DU",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2012,
+   "label": ""
+ },
+ {
+   "source": "MiBo",
+   "target": "JB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 1997,
+   "label": ""
+ },
+ {
+   "source": "MiBo",
+   "target": "KB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2003,
+   "label": ""
+ },
+ {
+   "source": "MiBo",
+   "target": "DU",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2012,
+   "label": ""
+ },
+ {
+   "source": "HaKe",
+   "target": "RD",
+   "directed": "no",
+   "type": "Featured",
+   "start": 1992,
+   "label": ""
+ },
+ {
+   "source": "HaKe",
+   "target": "PF",
+   "directed": "no",
+   "type": "Featured",
+   "start": 1994,
+   "label": ""
+ },
+ {
+   "source": "HaKe",
+   "target": "IB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2009,
+   "label": ""
+ },
+ {
+   "source": "MiMa",
+   "target": "RD",
+   "directed": "no",
+   "type": "Featured",
+   "start": 1992,
+   "label": ""
+ },
+  {
+   "source": "MiMa",
+   "target": "KB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2003,
+   "label": ""
+ },
+ {
+   "source": "MiMa",
+   "target": "HE",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2015,
+   "label": ""
+ },
+ {
+   "source": "MiPa",
+   "target": "KB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2003,
+   "label": ""
+ },
+ {
+   "source": "MiPa",
+   "target": "DP",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2007,
+   "label": ""
+ },
+ {
+   "source": "MiPa",
+   "target": "DU",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2012,
+   "label": ""
+ },
+ {
+   "source": "StBu",
+   "target": "RD",
+   "directed": "no",
+   "type": "Featured",
+   "start": 1992,
+   "label": ""
+ },
+ {
+   "source": "StBu",
+   "target": "PF",
+   "directed": "no",
+   "type": "Featured",
+   "start": 1994,
+   "label": ""
+ },
+ {
+   "source": "PaCa",
+   "target": "PF",
+   "directed": "no",
+   "type": "Featured",
+   "start": 1994,
+   "label": ""
+ },
+ {
+   "source": "PaCa",
+   "target": "FR",
+   "directed": "no",
+   "type": "Featured",
+   "start": 1995,
+   "label": ""
+ },
+ {
+   "source": "LaCa",
+   "target": "KB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2003,
+   "label": ""
+ },
+ {
+   "source": "LaCa",
+   "target": "DU",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2012,
+   "label": ""
+ },
+ {
+   "source": "BrDe",
+   "target": "DU",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2012,
+   "label": ""
+ },
+ {
+   "source": "BrDe",
+   "target": "HE",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2015,
+   "label": ""
+ },
+ {
+   "source": "OmDo",
+   "target": "DP",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2007,
+   "label": ""
+ },
+ {
+   "source": "OmDo",
+   "target": "IB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2009,
+   "label": ""
+ },
+ {
+   "source": "JuDr",
+   "target": "KB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2003,
+   "label": ""
+ },
+ {
+   "source": "JuDr",
+   "target": "IB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2009,
+   "label": ""
+ },
+ {
+   "source": "WaGo",
+   "target": "DU",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2012,
+   "label": ""
+ },
+ {
+   "source": "WaGo",
+   "target": "HE",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2015,
+   "label": ""
+ },
+ {
+   "source": "KaGr",
+   "target": "PF",
+   "directed": "no",
+   "type": "Featured",
+   "start": 1994,
+   "label": ""
+ },
+ {
+   "source": "KaGr",
+   "target": "JB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 1997,
+   "label": ""
+ },
+ {
+   "source": "SiHa",
+   "target": "KB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2003,
+   "label": ""
+ },
+ {
+   "source": "SiHa",
+   "target": "HE",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2015,
+   "label": ""
+ },
+ {
+   "source": "LeHo",
+   "target": "DU",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2012,
+   "label": ""
+ },
+ {
+   "source": "LeHo",
+   "target": "HE",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2015,
+   "label": ""
+ },
+ {
+   "source": "JoLo",
+   "target": "KB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2003,
+   "label": ""
+ },
+ {
+   "source": "JoLo",
+   "target": "DP",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2007,
+   "label": ""
+ },
+ {
+   "source": "ElRo",
+   "target": "DP",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2007,
+   "label": ""
+ },
+ {
+   "source": "ElRo",
+   "target": "IB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2009,
+   "label": ""
+ },
+ {
+   "source": "KuRu",
+   "target": "DP",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2007,
+   "label": ""
+ },
+ {
+   "source": "KuRu",
+   "target": "HE",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2015,
+   "label": ""
+ },
+ {
+   "source": "DaSt",
+   "target": "RD",
+   "directed": "no",
+   "type": "Featured",
+   "start": 1992,
+   "label": ""
+ },
+ {
+   "source": "DaSt",
+   "target": "DU",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2012,
+   "label": ""
+ },
+ {
+   "source": "UmTh",
+   "target": "PF",
+   "directed": "no",
+   "type": "Featured",
+   "start": 1994,
+   "label": ""
+ },
+ {
+   "source": "UmTh",
+   "target": "KB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2003,
+   "label": ""
+ },
+ {
+   "source": "ChWa",
+   "target": "IB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2009,
+   "label": ""
+ },
+ {
+   "source": "ChWa",
+   "target": "DU",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2012,
+   "label": ""
+ },
+ {
+   
+   "source": "BoSv",
+   "target": "KB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2003,
+   "label": ""
+ },
+ {
+   
+   "source": "BoSv",
+   "target": "IB",
+   "directed": "no",
+   "type": "Featured",
+   "start": 2009,
+   "label": ""
+ },
+ {
+   
+   "source": "BrWi",
+   "target": "PF",
+   "directed": "no",
+   "type": "Featured",
+   "start": 1994,
+   "label": ""
+ },
+ {
+   
+   "source": "BrWi",
+   "target": "FR",
+   "directed": "no",
+   "type": "Featured",
+   "start": 1995,
+   "label": ""
+ } 
+],
+"locations":[
+]
+}

@@ -1,0 +1,388 @@
+{
+  "nodes":[
+ {
+   "id": "GBR",
+   "label": "United Kingdom",
+   "type": "Country"
+ },
+ {
+   "id": "BEL",
+   "label": "Belgium",
+   "type": "Country"
+ },
+ {
+   "id": "FRA",
+   "label": "France",
+   "type": "Country"
+ },
+ {
+   "id": "DEU",
+   "label": "Germany",
+   "type": "Country"
+ },
+ {
+   "id": "AUT",
+   "label": "Austria",
+   "type": "Country"
+ },
+ {
+   "id": "ITA",
+   "label": "Italy",
+   "type": "Country"
+ },
+ {
+   "id": "RUS",
+   "label": "Russia",
+   "type": "Country"
+ },
+ {
+   "id": "SRB",
+   "label": "Serbia",
+   "type": "Country"
+ },
+ {
+   "id": "BGR",
+   "label": "Bulgaria",
+   "type": "Country"
+ },
+ {
+   "id": "OTM",
+   "label": "Ottoman Empire",
+   "type": "Country"
+ },
+ {
+   "id": "GRC",
+   "label": "Greece",
+   "type": "Country"
+ }
+],
+  "links":[
+ {
+   "source": "DEU",
+   "target": "RUS",
+   "directed": "no",
+   "type": "Alliance",
+   "start": 1873,
+   "end": 1887,
+   "label": "Three Emperors Alliance"
+ },
+ {
+   "source": "AUT",
+   "target": "RUS",
+   "directed": "no",
+   "type": "Alliance",
+   "start": 1873,
+   "end": 1887,
+   "label": "Three Emperors Alliance"
+ },
+ {
+   "source": "DEU",
+   "target": "AUT",
+   "directed": "no",
+   "type": "Alliance",
+   "start": 1873,
+   "end": 1887,
+   "label": "Three Emperors Alliance"
+ },
+ {
+   "source": "GBR",
+   "target": "BEL",
+   "directed": "no",
+   "type": "Alliance",
+   "start": 1839,
+   "end": null,
+   "label": "The First Treaty of London"
+ },
+ {
+   "source": "DEU",
+   "target": "AUT",
+   "directed": "no",
+   "type": "Alliance",
+   "start": 1879,
+   "end": 1918,
+   "label": "Dual Alliance"
+ },
+ {
+   "source": "DEU",
+   "target": "ITA",
+   "directed": "no",
+   "type": "Alliance",
+   "start": 1882,
+   "end": 1914,
+   "label": "Triple Alliance"
+ },
+ {
+   "source": "AUT",
+   "target": "ITA",
+   "directed": "no",
+   "type": "Alliance",
+   "start": 1882,
+   "end": 1914,
+   "label": "Triple Alliance"
+ },
+ {
+   "source": "AUT",
+   "target": "DEU",
+   "directed": "no",
+   "type": "Alliance",
+   "start": 1882,
+   "end": 1914,
+   "label": "Triple Alliance"
+ },
+ {
+   "source": "FRA",
+   "target": "RUS",
+   "directed": "no",
+   "type": "Alliance",
+   "start": 1894,
+   "end": 1917,
+   "label": "Franco-Russian Alliance"
+ },
+ {
+   "source": "FRA",
+   "target": "GBR",
+   "directed": "no",
+   "type": "Alliance",
+   "start": 1904,
+   "end": null,
+   "label": "Entente Cordiale"
+ },
+ {
+   "source": "RUS",
+   "target": "GBR",
+   "directed": "no",
+   "type": "Alliance",
+   "start": 1907,
+   "end": null,
+   "label": "Triple Entente"
+ },
+ {
+   "source": "FRA",
+   "target": "GBR",
+   "directed": "no",
+   "type": "Alliance",
+   "start": 1907,
+   "end": null,
+   "label": "Triple Entente"
+ },
+ {
+   "source": "RUS",
+   "target": "SRB",
+   "directed": "no",
+   "type": "Alliance",
+   "start": 1914,
+   "end": 1918,
+   "label": ""
+ },
+ {
+   "source": "AUT",
+   "target": "SRB",
+   "directed": "yes",
+   "type": "Tension",
+   "start": 1914,
+   "end": null,
+   "label": "Assassination of Archduke Franz Ferdinand of Austria"
+ },
+ {
+   "source": "AUT",
+   "target": "BGR",
+   "directed": "yes",
+   "type": "Tension",
+   "start": 1907,
+   "end": null,
+   "label": ""
+ },
+ {
+   "source": "SRB",
+   "target": "BGR",
+   "directed": "yes",
+   "type": "Tension",
+   "start": 1907,
+   "end": null,
+   "label": ""
+ },
+ {
+   "source": "SRB",
+   "target": "OTM",
+   "directed": "yes",
+   "type": "Tension",
+   "start": 1907,
+   "end": null,
+   "label": ""
+ },
+ {
+   "source": "SRB",
+   "target": "GRC",
+   "directed": "yes",
+   "type": "Tension",
+   "start": 1907,
+   "end": null,
+   "label": ""
+ },
+ {
+   "source": "OTM",
+   "target": "BGR",
+   "directed": "yes",
+   "type": "Tension",
+   "start": 1907,
+   "end": null,
+   "label": ""
+ },
+ {
+   "source": "OTM",
+   "target": "GRC",
+   "directed": "yes",
+   "type": "Tension",
+   "start": 1907,
+   "end": null,
+   "label": ""
+ },
+ {
+   "source": "OTM",
+   "target": "SRB",
+   "directed": "yes",
+   "type": "Tension",
+   "start": 1907,
+   "end": null,
+   "label": ""
+ },
+ {
+   "source": "AUT",
+   "target": "SRB",
+   "directed": "yes",
+   "type": "Ultimatum",
+   "start": 1914,
+   "end": null,
+   "label": ""
+ },
+ {
+   "source": "SRB",
+   "target": "AUT",
+   "directed": "yes",
+   "type": "Reject",
+   "start": 1914,
+   "end": null,
+   "label": ""
+ },
+ {
+   "source": "AUT",
+   "target": "SRB",
+   "directed": "yes",
+   "type": "Attack",
+   "start": 1914,
+   "end": null,
+   "label": ""
+ },
+ {
+   "source": "DEU",
+   "target": "RUS",
+   "directed": "yes",
+   "type": "Attack",
+   "start": 1914,
+   "end": null,
+   "label": ""
+ },
+ {
+   "source": "DEU",
+   "target": "FRA",
+   "directed": "yes",
+   "type": "Attack",
+   "start": 1914,
+   "end": null,
+   "label": ""
+ },
+ {
+   "source": "DEU",
+   "target": "BEL",
+   "directed": "yes",
+   "type": "Attack",
+   "start": 1914,
+   "end": null,
+   "label": ""
+ },
+ {
+   "source": "GBR",
+   "target": "DEU",
+   "directed": "yes",
+   "type": "Attack",
+   "start": 1914,
+   "end": null,
+   "label": ""
+ },
+ {
+   "source": "AUT",
+   "target": "RUS",
+   "directed": "yes",
+   "type": "Attack",
+   "start": 1914,
+   "end": null,
+   "label": ""
+ },
+ {
+   "source": "DEU",
+   "target": "BEL",
+   "directed": "yes",
+   "type": "Annex",
+   "start": 1914,
+   "end": null,
+   "label": ""
+ }
+],
+"locations":[
+ {
+   "id": "GBR",
+   "lat": 51.51,
+   "long": -0.12
+ },
+ {
+   "id": "BEL",
+   "lat": 50.83,
+   "long": 4.33
+ },
+ {
+   "id": "FRA",
+   "lat": 48.87,
+   "long": 2.33
+ },
+ {
+   "id": "DEU",
+   "lat": 52.52,
+   "long": 13.4
+ },
+ {
+   "id": "AUT",
+   "lat": 48.2,
+   "long": 16.37
+ },
+ {
+   "id": "ITA",
+   "lat": 41.9,
+   "long": 12.48
+ },
+ {
+   "id": "RUS",
+   "lat": 55.75,
+   "long": 37.62
+ },
+ {
+   "id": "SRB",
+   "lat": 43.85,
+   "long": 18.38
+ },
+ {
+   "id": "BGR",
+   "lat": 42.68,
+   "long": 23.32
+ },
+ {
+   "id": "OTM",
+   "lat": 41.02,
+   "long": 28.96
+ },
+ {
+   "id": "GRC",
+   "lat": 37.98,
+   "long": 23.73
+ }
+]
+}
