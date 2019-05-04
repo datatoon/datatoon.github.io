@@ -1,0 +1,223 @@
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>DataToon</title>
+        <style>
+            body{
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                display: flex;
+                
+                justify-content: center;
+            }
+            .container{
+                width:100%;
+                max-width: 768px;
+
+            }
+            .section{
+                margin: 40px 5px 10px 5px;
+            }
+            a {
+                text-decoration: none;
+                
+            }
+            a:link {
+                color: #0091EA;
+            }
+            a:visited { 
+                color: #0091EA;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            .pub-materials{
+                margin-top:5px;
+            }
+            ::selection {
+                color: white; 
+                background: #FF6D00;
+            }
+            .examples{
+                display:flex;
+                flex-wrap: wrap;
+            }
+            .example{
+                width:45%;
+                padding:5px;
+                text-align: center;
+            }
+            h2, h3{
+                text-align: center;
+            }
+            .dataset{
+                margin: 10px 0px 0px 5px;
+            }
+            @media screen and (min-width: 600px) {
+                .example{ 
+                    width:32%;
+                }
+            }
+            .step{
+                padding:5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+
+            <h2 class="title">
+                    DataToon: Drawing Dynamic Network Comics With Pen + Touch Interaction
+            </h2>
+            <img src="teaser.png" width="100%"/>
+            <p class="abstract">
+                    Comics are an entertaining and familiar medium for presenting compelling stories about data. However, existing visualization authoring tools do not leverage this expressive medium. In this paper, we seek to incorporate elements of comics into the construction of data-driven stories about dynamic networks. We contribute DataToon, a flexible data comic storyboarding tool that blends analysis and presentation with pen and touch interactions. A storyteller can use DataToon rapidly generate visualization panels, annotate them, and position them within a canvas to produce a visually compelling narrative. In a user study, participants quickly learned to use DataToon for producing data comics.
+            </p>
+            <div class="section">
+                <div class="pub-title">
+                        <strong>DataToon: Drawing Dynamic Network Comics With Pen + Touch Interaction</strong>
+                </div>
+                <div class="pub-authors">
+                        <em>Nam Wook Kim, Nathalie Henry Riche, Benjamin Bach, Guanpeng Xu, Matthew Brehmer, Ken Hinckley, Michel Pahud, Haijun Xia, Michael McGuffin, Hanspeter Pfister</em>
+                </div>
+                <div class="pub-materials">
+                    <a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/01/datatoon.pdf" target="_blank">[Paper]</a>
+                    <a href="#video">[Video]</a>
+                    <a href="https://datatoon.namwkim.org/" target="_blank">[Software]</a>
+                    <a href="#examples">[Examples]</a>
+                    <a href="#tutorial">[Tutorial]</a>
+                </div>
+            </div>
+            
+            <div id="video" class="section">         
+                <h3>Video</h3>       
+                <video width="100%" controls>
+                        <source src="video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+            <div id="examples" class="section">
+                
+                <h3>Examples</h3>
+                <div class="examples">
+                    <div class="example">
+                        <a href="examples/ww1.png" target="_blank"><img src="examples/ww1.png" width="100%"></a>
+                        
+                        <a href="datasets/ww1.json" target="_blank" class="dataset">[Dataset]</a>
+                    </div>
+                    <div class="example">
+                        <a href="examples/milesdavis.png" target="_blank"><img src="examples/milesdavis.png" width="100%"></a>
+                        <a href="datasets/milesdavis.json" target="_blank" class="dataset">[Dataset]</a>
+                    </div>
+                    <div class="example">
+                        <a href="examples/fekete.png" target="_blank"><img src="examples/fekete.png" width="100%"></a>
+                        <a href="#" target="_blank" class="dataset">[Dataset]</a>
+                    </div>
+                    <div class="example">
+                        <a href="examples/deardata.png" target="_blank"><img src="examples/deardata.png" width="100%"></a>
+                        <a href="#" target="_blank" class="dataset">[Dataset]</a>
+                    </div>
+                    <div class="example">
+                        <a href="examples/wes_anderson.png" target="_blank"><img src="examples/wes_anderson.png" width="100%"></a>
+                        <a href="datasets/wesanderson.json" target="_blank" class="dataset">[Dataset]</a>
+                    </div>
+                    <div class="example">
+                        <a href="examples/tarantino.png" target="_blank"><img src="examples/tarantino.png" width="100%"></a>
+                        <a href="datasets/tarantino.json" target="_blank" class="dataset">[Dataset]</a>
+                    </div>
+                    <div class="example">
+                        <a href="examples/franklin.png" target="_blank"><img src="examples/franklin.png" width="100%"></a>
+                        <a href="datasets/franklin.json" target="_blank" class="dataset">[Dataset]</a>
+                    </div>
+                    <div class="example">
+                        <a href="examples/marie-comic.png" target="_blank"><img src="examples/marie-comic.png" width="100%"></a>
+                        <a href="datasets/marieboucher.json" target="_blank" class="dataset">[Dataset]</a>
+                    </div>
+                    <div class="example">
+                        <a href="examples/shneiderman.png" target="_blank"><img src="examples/shneiderman.png" width="100%"></a>
+                        <a href="datasets/shneiderman.json" target="_blank" class="dataset">[Dataset]</a>
+                    </div>
+                </div>
+            </div>
+                        
+            <div id="tutorial" class="section">
+                
+                <h3>Tutorial</h3>
+                <div class="steps">
+                    <div class="step">
+                        <h4>Interaction Design</h4>
+                        <img width="100%" src="tutorial/interaction.png"/>
+                    </div>
+                    <div class="step">
+                        <h4>Load data</h4>
+                        <video width="100%" controls onmouseout="this.pause()" onmouseover="this.play()"> 
+                            <source src="tutorial/1.m4v" type="video/mp4">> 
+                        </video>
+                    </div>
+                    <div class="step">
+                        <h4>Inspecting Patterns Detected from the Dataset</h4>
+                        <video width="100%" controls onmouseout="this.pause()" onmouseover="this.play()"> 
+                            <source src="tutorial/2.m4v" type="video/mp4">> 
+                        </video>
+                    </div>
+                    <div class="step">
+                        <h4>Generate Visualization Panels, Filter and Annotate the Panels</h4>
+                        <video width="100%" controls onmouseout="this.pause()" onmouseover="this.play()"> 
+                            <source src="tutorial/3.m4v" type="video/mp4">> 
+                        </video>
+                    </div>
+                    <div class="step">
+                        <h4>Extracting Network Structure Patterns from a Panel</h4>
+                        <video width="100%" controls onmouseout="this.pause()" onmouseover="this.play()"> 
+                            <source src="tutorial/4.m4v" type="video/mp4">> 
+                        </video>
+                    </div>
+                    <div class="step">
+                        <h4>Preparing for Building a Comic</h4>
+                        <video width="100%" controls onmouseout="this.pause()" onmouseover="this.play()"> 
+                            <source src="tutorial/5.m4v" type="video/mp4">> 
+                        </video>
+                    </div>
+                    <div class="step">
+                        <h4>Writng a Storyboard</h4>
+                        <video width="100%" controls onmouseout="this.pause()" onmouseover="this.play()"> 
+                            <source src="tutorial/6.m4v" type="video/mp4">> 
+                        </video>
+                    </div>
+                    <div class="step">
+                        <h4>Start Filling the Storyboard</h4>
+                        <video width="100%" controls onmouseout="this.pause()" onmouseover="this.play()"> 
+                            <source src="tutorial/7.m4v" type="video/mp4">> 
+                        </video>
+                    </div>
+                    <div class="step">
+                        <h4>Generate Labels and Create a Time Caption</h4>
+                        <video width="100%" controls onmouseout="this.pause()" onmouseover="this.play()"> 
+                            <source src="tutorial/8.m4v" type="video/mp4">> 
+                        </video>
+                    </div>
+                    <div class="step">
+                        <h4>Highlight Relationships</h4>
+                        <video width="100%" controls onmouseout="this.pause()" onmouseover="this.play()"> 
+                            <source src="tutorial/9.m4v" type="video/mp4">> 
+                        </video>
+                    </div>
+                    <div class="step">
+                        <h4>Customize Visual Representations</h4>
+                        <video width="100%" controls onmouseout="this.pause()" onmouseover="this.play()"> 
+                            <source src="tutorial/10.m4v" type="video/mp4">> 
+                        </video>
+                    </div>
+                    <div class="step">
+                        <h4>Reducing the Gutter</h4>
+                        <video width="100%" controls onmouseout="this.pause()" onmouseover="this.play()"> 
+                            <source src="tutorial/11.m4v" type="video/mp4">> 
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </body>
+</html>
